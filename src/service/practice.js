@@ -23,7 +23,7 @@ const practice = {
   {
     // const id = request.id;
     try {
-      const mockResponse = {
+      const mockTest = [{
         id: 1,
         body: "This is a practice question",
         answers: [
@@ -45,8 +45,8 @@ const practice = {
           },
         ],
         correctAnswer: "B"
-      };
-      return mockResponse;
+      }];
+      return mockTest;
       // return await httpService.httpGet(`${domain}/${id}`);
     } catch (error) {
       return error;
